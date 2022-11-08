@@ -2,11 +2,12 @@
 ## Updated link at
 https://deedash.github.io/dipayandash.github.io/
 
-Screenshots:
-![image](images/Screenshot\ 2022-11-09\ at\ 12.30.44\ AM.png)
----
-![image](images/Screenshot\ 2022-11-09\ at\ 12.30.52\ AM.png)
----
-![image](images/Screenshot\ 2022-11-09\ at\ 12.31.09\ AM.png)
----
-![image](images/Screenshot\ 2022-11-09\ at\ 12.31.16\ AM.png)
+## Screenshots:
+
+![alt text](https://github.com/DeeDash/dipayandash.github.io/blob/main/Images/Screenshot%202022-11-09%20at%2012.30.44%20AM.png)
+
+![alt text](https://github.com/DeeDash/dipayandash.github.io/blob/main/Images/Screenshot%202022-11-09%20at%2012.30.52%20AM.png)
+
+![alt text](https://github.com/DeeDash/dipayandash.github.io/blob/main/Images/Screenshot%202022-11-09%20at%2012.31.09%20AM.png)
+
+![alt text](https://github.com/DeeDash/dipayandash.github.io/blob/main/Images/Screenshot%202022-11-09%20at%2012.31.16%20AM.png)
