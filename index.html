@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DeeDash</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Dipayan Dash</h1>
+        <h2>20 / VIT '24 / INFP-A</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+            <tr>
+                <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"
+                        href="https://www.linkedin.com/in/dipayan-dash/"><i class="fab fa-linkedin"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"
+                        href="https://letterboxd.com/DeeDash/"><i class="fa fa-film"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"
+                        href="https://www.instagram.com/damndeedash/"><i class="fab fa-instagram"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"
+                        href="https://github.com/deedash"><i class="fab fa-github"></i></a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+
+        <section>
+            <h1>work.</h1>
+            <h2>work experience / projects</h2>
+            <p>
+                <u>Student Intern <br>
+                    Future Ready Talent Program</u> <br>
+                Technologies Used - Cloud Computing, Data Analytics and Git <br>
+                Developed a Stock Market Anomaly Detector using Microsoft Azure Anomaly Detection Services which helps
+                market regulators detect stock market manipulation and prevent against fraud. <br><br>
+
+                <u>Project <br>
+                    Intrusion Detection System using Machine Learning</u> <br>
+                Technologies Used - Python, Scikit, Matplotlib <br>
+                Designed a network intrusion detection system using random forest algorithm to protect
+                against network intrusion attacks.
+            </p>
+            <br>
+            <div id="used">
+                <p>This website was made using</p>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            </div>
+            <button class="btn_one" onclick="githubRedirect()">GitHub</button>
+            <button class="btn_two" onclick="resumeRedirect()">Resume</button>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+        <h1>about.</h1>
+        <section>
+            <h2>about me</h2>
+            <p>
+                To clear out any confusion regarding the landing page, I'm 20, currently pursuing my Bachelors in
+                Vellore Institute of Technology, Vellore, India, expected to finish in 2024 (optimistically).
+                The Sixteen Personality Factor Questionnaire places me at a modest INFP-A. <br>
+                I like breaking things and fixing them, I believe that's one of the best ways to learn about new things
+                and get a deeper understanding of how stuff works.
+                Some of my other interests include looking for new albums to listen to while I'm on the way to my
+                lectures, analysing art films and tinkering with Linux systems.
+                I've also picked up reading books again.
+            </p>
+        </section>
+        <section>
+            <p>
+                Enthusiastic software developer. Fascinated by computer security, cryptography, operating systems and
+                artificial intelligence with a
+                love for complex problem solving. Eager to contribute to team success through hard work, attention to
+                detail and organisational
+                skills. Organised and dependable, successful at managing multiple priorities with a positive attitude.
+                Willing to take on added responsibilities to meet team goals.
+
+            </p>
+        </section>
+    </div>
+    <div id="contact_container" class="container">
+        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+        <h1>contact.</h1>
+        <section>
+            <h2>contact me</h2>
+            <p>
+            <form>
+                <input type="text" placeholder="name" required>
+                <input type="email" placeholder="email" required><br>
+                <textarea placeholder="your message"></textarea><br>
+                <button class="btn_one">send</button>
+            </form>
+            </p>
+        </section>
+    </div>
+    <div id="footer">
+        made by DeeDash <br> <a href="https://deedash.github.io">deedash</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
